@@ -15,41 +15,8 @@ import {
  
  const defaultMenu = {
   before: `
-  「 ${botname} 🎁XMD 」\n
+  「 ${botname} ☠️ 」\n
   *%ucpn*
-⍟────────────────⍟
-*REMEMBER THIS BOT IS FOR*
-*EDUCATIONAL PERPOSES*
-⍟────────────────⍟
-*©Salman Ahmand*
-⍟────────────────⍟
-*_Konnichiwa! Its XLICON-MD A_* 
-*_Multi-Device Whatsapp BOT_*
-*_Recoded By Salman Ahmad And Abraham Dwamena_*
-⍟────────────────⍟
-                                    
- ▀▄▀ █░░ █ █▀▀ █▀█ █▄░█  
- █░█ █▄▄ █ █▄▄ █▄█ █░▀█  
-          
- █▀▄▀█ █▀▄
- █░▀░█ █▄▀
- 
-╭─────────────────⦿
-┃    🔰〘 𝙄𝙉𝙁𝙊 〙🔰
-╰┬────────────────⦿
-┌┤
-┃
-┃ *_Founder_*: Salman Ahmad 
-┃ *_Bot Name_*: ${botname}
-┃ *_Mode_*: %mode
-┃ *_HOST_*: kali Linix
-┃ *_Type_*: NodeJs
-┃ *_Baileys_*: Multi Device
-┃ *_Prefix_*: [ *%_p* ]
-┃ *_Uptime_*: %muptime
-┃ *_Database_*:  %totalreg
-┃
-╰──────────────────⦿
 ╭──────────────────⦿
 ┃    🔰〘 𝙐𝙎𝙀𝙍 〙🔰
 ╰┬─────────────────⦿
@@ -63,14 +30,6 @@ import {
 ┃ *_Total Xp_*: %totalexp
 ┃
 ╰──────────────────⦿
-╭──────────────────⦿
-┃   🔰〘 𝑰𝑵𝑭𝑶 𝑪𝑴𝑫 〙🔰
-╰┬─────────────────⦿
-┌┤ 
-┃ *_%totalfeatures_* Commands
-╰──────────────────⦿
-
-
  `.trimStart(),
  header: "┌─⦿『 *_%category_* 』⦿",
  body: "┃⬡▸ %cmd %isPremium %islimit",
@@ -208,7 +167,7 @@ import {
  readmore: readMore
    }
    text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, "g"), (_, name) => "" + replace[name])
-   const pp = './Assets/Gurulogo.jpg'
+   const pp = './Assets/XLICON-V2.jpg'
   
  
  let contact = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
