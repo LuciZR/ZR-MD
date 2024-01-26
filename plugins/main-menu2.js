@@ -41,13 +41,10 @@ let str = `
 
 🌠 *_Xlicon team quote of the day: ${quote}_* 🌠
 
-┏━━🤖 _BOT STATUS:_🤖━━┓
-┃ 🏮  *Founder:* Salman Ahmad
+┏━━🤖 _BOT STATUS:_🤖━┓
 ┃ 🤡  *Bot Name:* ${botname} 
 ┃ 💻  *Host:* Kali Linix
-┃ 📣  *Prefix:* ${usedPrefix} 
 ┃ 🕓  *Uptime:* ${uptime}
-┃ 💌  *Database:* ${rtotalreg} of ${totaluser} 
 ┃ 📚  *Total Users:* ${totaluser} 
 ╰───────────────⍟
 
@@ -59,7 +56,6 @@ let str = `
 ┏━😎 _User Info:_ 😎━┓
 ┃ 👾  *User Tag:* ${taguser} 
 ┃ 😇  *Name:* ${name} 
-┃ 🌟  *Master Mind:* ${author} 
 ┃ 💎  *Diamonds:* ${diamond} 
 ┃ 🏆  *Rank:* ${role}
 ┃ 🎮  *XP:* ${exp} 
