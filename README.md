@@ -2,12 +2,12 @@
 ##  мια 𝙼𝙳 ⚠︎
 
 zr md ⚠︎ is based on :
->- [inrl-md-bot](https://github.com/Guru322/GURU-BOT) by [Guru](https://github.com/I-NRL) (License: Apache License 2.0)
+>- [inrl-md-bot](https://github.com/I-NRL/inrl-bot-md) by [I-NRL](https://github.com/I-NRL) (License: Apache License 2.0)
 >
-> :octocat: Don't forget to check out! :point_right: [GURU BOT](https://github.com/Guru322/GURU-BOT)
+> :octocat: Don't forget to check out! :point_right: [INRL MD BOT](https://github.com/I-NRL/inrl-bot-md)
 </p>
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=F710B1&center=true&width=910&height=100&lines=I'M+Mia MD ⚠︎;Multi+Divice+Whatsapp+Bot;Coded+By+LuciZR" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=F710B1&center=true&width=910&height=100&lines=I'M+ZR MD ⚠︎;Multi+Divice+Whatsapp+Bot;Coded+By+LuciZR" alt="Typing SVG" /></a>
   
 <p align="center">  
   <a href="https://whatsapp.com/channel/0029Va9S1ZW17En4Yh6hz63R">
