@@ -1,7 +1,7 @@
 ##  мια 𝙼𝙳 ⚠︎
 
-𝙼𝙸𝙰 𝙼𝙳 ⚠︎ is based on :
->- [GURU BOT](https://github.com/Guru322/GURU-BOT) by [Guru](https://github.com/Guru322) (License: Apache License 2.0)
+zr md ⚠︎ is based on :
+>- [inrl-md-bot](https://github.com/Guru322/GURU-BOT) by [Guru](https://github.com/I-NRL) (License: Apache License 2.0)
 >
 > :octocat: Don't forget to check out! :point_right: [GURU BOT](https://github.com/Guru322/GURU-BOT)
 </p>
@@ -9,8 +9,8 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=F710B1&center=true&width=910&height=100&lines=I'M+Mia MD ⚠︎;Multi+Divice+Whatsapp+Bot;Coded+By+LuciZR" alt="Typing SVG" /></a>
   
 <p align="center">  
-  <a href="http://gg.gg/zr-md">
-    <img alt=LuciZR  src="https://i.imgur.com/TVhmEFY.jpeg">
+  <a href="https://whatsapp.com/channel/0029Va9S1ZW17En4Yh6hz63R">
+    <img alt=LuciZR  src="https://telegra.ph/file/02d1f769d1b4d992c8848.png">
    
 </a> 
     
@@ -38,7 +38,7 @@
 ## Bot Support Groups
 <p align="center">
  
-<a href="https://chat.whatsapp.com/HuQXSSgC80hERPfi4D4D2i"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://whatsapp.com/channel/0029Va9S1ZW17En4Yh6hz63R"><img src="https://img.shields.io/badge/Join support Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 </p>
 
@@ -46,11 +46,11 @@
 
 1. Fork The Repo
     <br>
-<a href="https://github.com/LuciZR/Mia-Md/fork"><img title="𝑴𝑰𝑨 𝑴𝑫 ⚠︎" src="https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black"></a>
+<a href="https://github.com/LuciZR/ZR-MD/fork"><img title="𝑴𝑰𝑨 𝑴𝑫 ⚠︎" src="https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black"></a>
 
 2. Get Session ID (Server 1)
 
-<a href="https://mia-session.onrender.com/"><img src="https://telegra.ph/file/65d614cc6911f9f8fc3f0.png" align="center" width="90" /> </a>
+<a href="https://zr-md.koyeb.app/code.zr"><img src="https://telegra.ph/file/65d614cc6911f9f8fc3f0.png" align="center" width="90" /> </a>
 ## 𝑴𝑰𝑨 𝑴𝑫 Deploy Method
 
 ---
