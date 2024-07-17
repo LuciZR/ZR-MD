@@ -10,7 +10,7 @@ zr md ⚠︎ is based on :
   
 <p align="center">  
   <a href="https://whatsapp.com/channel/0029Va9S1ZW17En4Yh6hz63R">
-    <img alt=LuciZR  src="https://telegra.ph/file/02d1f769d1b4d992c8848.png">
+    <img alt=LuciZR height="300" src="https://telegra.ph/file/02d1f769d1b4d992c8848.png">
    
 </a> 
     
