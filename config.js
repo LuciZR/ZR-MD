@@ -11,8 +11,8 @@ module.exports = {
         APP_NAME: process.env.HEROKU_APP_NAME
     },
     PORT: process.env.PORT || 3000,
-    BASE_URL : "https://upper-romy-inrl-bot.koyeb.app/",
-    REPO: "inr-l/inrl-bot-md",
+    BASE_URL : "https://zr-md.koyeb.app/",
+    REPO: "lucizr/zr-md",
     BGM_URL : process.env.BGM_URL || "null",
     ANTI_CALL : process.env.ANTI_CALL || 'false',//true,block
     ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "false"),
