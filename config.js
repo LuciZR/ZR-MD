@@ -1,49 +1,48 @@
-const toBool = (x) => x == 'true'
-const { existsSync } = require('fs')
-const { Sequelize } = require('sequelize');
-if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
-process.env.NODE_OPTIONS = '--max_old_space_size=2560'//2.5
-const DB_URL =  process.env.DATABASE_URL || '';
+const { Sequelize } = require("sequelize");
+const fs = require("fs");
+if (fs.existsSync("config.env"))
+  require("dotenv").config({ path: "./config.env" });
+
+const toBool = (x) => x == "true";
+
+DATABASE_URL = process.env.DATABASE_URL || "https://zr-md.koyeb.app";
+let HANDLER = "false";
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || '', //your ssid to run bot
-    HEROKU: {
-        API_KEY: process.env.HEROKU_API_KEY,
-        APP_NAME: process.env.HEROKU_APP_NAME
-    },
-    PORT: process.env.PORT || 3000,
-    BASE_URL : "https://zr-md.koyeb.app/",
-    REPO: "lucizr/zr-md",
-    BGM_URL : process.env.BGM_URL || "null",
-    ANTI_CALL : process.env.ANTI_CALL || 'false',//true,block
-    ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "false"),
-    PM_BLOCK : process.env.PM_BLOCK || "false",//badword, all, spam:10 for spamming 10 block
-    BGMBOT : toBool(process.env.BGMBOT || "false"),
-    STATUS_VIEW: process.env.STATUS_VIEW || "false",
-    SAVE_STATUS: toBool(process.env.SAVE_STATUS || "false"),
-    DISABLE_PM: toBool(process.env.DISABLE_PM || "false"),
-    DISABLE_GRP : toBool(process.env.DISABLE_GRP || "false"),
-    ERROR_MSG : toBool(process.env.ERROR_MSG || "true"),
-    AJOIN: toBool(process.env.AJOIN || 'false'),
-    READ : process.env.READ ||  "false",//true, command
-    CHATBOT : process.env.CHATBOT || "false",//true, pm, group
-    REACT : process.env.REACT || "false",//true, command, emoji
-    WARNCOUND : process.env.WARNCOUND || 5,
-    BOT_INFO : process.env.BOT_INFO || "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
-    WORKTYPE : process.env.WORKTYPE || "private",
-    PREFIX : process.env.PREFIX || "[.,!]",//both  .  and [.] equal, for multi prefix we use [] this
-    PERSONAL_MESSAGE: process.env.PERSONAL_MESSAGE || "null",
-    BOT_PRESENCE : process.env.BOT_PRESENCE || "unavailable",
-    AUDIO_DATA : process.env.AUDIO_DATA || "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
-    STICKER_DATA : process.env.STICKER_DATA || "inrl;inrl",
-    LIST_TYPE: process.env.LIST_TYPE || 'poll',//list, reaction 
-    LINK_PREVIEW: process.env.LINK_PREVIEW || 'INRL;Bot;https://graph.org/file/1ec147e94d9775916e665.jpg',//you can use "false" alslo
-    API_TYPE: process.env.API_TYPE || 'all',//unique
-    BRAINSHOP: process.env.BRAINSHOP || '172372,nbjE0YAlyw3cpoMl',
-    SUDO : process.env.SUDO || "null",
-    RMBG_KEY: process.env.RMBG_KEY,
-    OPEN_AI: process.env.OPEN_AI,
-    ELEVENLABS: process.env.ELEVENLABS,
-    INRL_KEY: process.env.INRL_KEY || 'zeta007',
-    OCR_KEY: (process.env.OCR_KEY || 'K84003107488957').trim(),
-    DATABASE: DB_URL ? new Sequelize(DB_URL,{dialect:'postgres',ssl:true,protocol: 'postgres', dialectOptions: {native: true,ssl:{require: true,rejectUnauthorized: false}}, logging: false}) : new Sequelize({dialect:'sqlite',storage:'./database.db',logging:false}) 
+  ANTILINK: toBool(process.env.ANTI_LINK) || false,
+  LOGS: toBool(process.env.LOGS) || true,
+  ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
+  SESSION_ID:process.env.SESSION_ID || " ",
+  LANG: process.env.LANG || "EN",
+  HANDLERS: process.env.PREFIX || '^[.]',
+  BRANCH: "main",
+  WARN_COUNT: 3,
+  STICKER_DATA: process.env.STICKER_DATA || "𝐙𝐞𝐭𝐚-𝐗𝐃;𝐁𝐚𝐝𝐚𝐧 𝐬𝐞𝐫⚇",
+  BOT_INFO: process.env.BOT_INFO || "𝐄𝐳𝐫𝐚𝐡𝐡-𝐗𝐃;𝐙𝐞𝐭𝐚𝐡𝐡;https://i.imgur.com/nAkM1zV.mp4",
+  AUDIO_DATA: process.env.AUDIO_DATA || "𝐳𝐞𝐭𝐚𝐚𝐡𝐡;𝐞𝐳𝐫𝐚𝐚𝐡𝐡-𝐱𝐝;https://i.imgur.com/Ou56ggv.jpeg",
+  ALWAYS_ONLINE: toBool(process.env.ALWAYS_ONLINE) || false,
+  STATUS_VIEW : process.env.STATUS_VIEW || "false",
+  CAPTION: process.env.CAPTION || "𝐳𝐞𝐭𝐚𝐚𝐡𝐡👁️!",
+  WORK_TYPE: process.env.WORK_TYPE || "private",
+  DATABASE_URL: DATABASE_URL,
+  DATABASE:
+    DATABASE_URL === "https://zr-md.koyeb.app"
+      ? new Sequelize({
+          dialect: "sqlite",
+          storage: DATABASE_URL,
+          logging: false,
+        })
+      : new Sequelize(DATABASE_URL, {
+          dialect: "postgres",
+          ssl: true,
+          protocol: "postgres",
+          dialectOptions: {
+            native: true,
+            ssl: { require: true, rejectUnauthorized: false },
+          },
+          logging: false,
+        }),
+  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
+  HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
+  SUDO: process.env.SUDO || "918293838182",
+  IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
 };
