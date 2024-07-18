@@ -8,5 +8,5 @@ RUN apt-get update && \
   rm -rf /var/lib/apt/lists/*
 RUN git clone https://github.com/LuciZR/ZR-MD /beta
 WORKDIR /beta
-RUN npm install
+RUN yarn install
 CMD ["node", "index.js"]
