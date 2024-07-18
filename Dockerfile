@@ -1,5 +1,12 @@
-FROM https://github.com/LuciZR/ZR-MD
-RUN git clone https://github.com/LuciZR/ZR-MD /root/beta/
-WORKDIR /root/beta/
-RUN yarn install --network-concurrency 1
-CMD ["npm", "start"]
+FROM node:lts-buster
+RUN apt-get update && \
+  apt-get install -y \
+  ffmpeg \
+  imagemagick \
+  webp && \
+  apt-get upgrade -y && \
+  rm -rf /var/lib/apt/lists/*
+RUN git clone https://github.com/LuciZR/ZR-MD /beta
+WORKDIR /beta
+RUN npm install
+CMD ["node", "index.js"]
