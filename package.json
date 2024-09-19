@@ -1,11 +1,11 @@
 {
-  "name": "ZR-MD",
+  "name": "AIZEN-MD",
   "version": "1.0.0",
   "description": " simple multi device WhatsApp Bot.",
   "main": "./index.js",
   "type": "commonjs",
   "scripts": {
-    "start":  "pm2 start . --attach --name zr"
+    "start":  "pm2 start . --attach --name 𝐀𝐈𝐙𝐄𝐍-𝐌𝐃"
   },
   "repository": {
     "type": "git",
@@ -14,12 +14,10 @@
   "keywords": [
     "bot",
     "ai",
-    "Ezra",
-    "Zeta",
-    "Badan Ser"
+    
   ],
-  "author": "Badan Ser",
-  "developer": "Badan Ser",
+  "author": "LuciZR",
+  "developer": "LuciZR",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/LuciZR/ZR-MD/issues"
