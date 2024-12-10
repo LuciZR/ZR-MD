@@ -1,0 +1,37 @@
+services:
+  - type: web
+    name: LUCI BOT
+    env: node
+    branch: main
+    repo: https://github.com/LuciZR/LUCI-BOT.git
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    autoDeploy: false
+    envVars:
+      - key: SESSION_ID
+        sync: false
+      - key: BOT_INFO
+        value: LUCI BOT;LuciZR;https://i.imgur.com/MJMdwEF.mp4
+      - key: WARN_COUNT
+        value: 3
+      - key: STATUS_VIEW
+        value: false
+      - key: SAVE_STATUES
+        value: true
+      - key: STICKER_DATA
+        value: INRL;MD
+      - key: PREFIX
+        value: [!,/.]
+      - key: WORK_TYPE
+        value: private
+      - key: CHATBOT
+        value: false
+      - key: REACT
+        value: command
+      - key: AUDIO_DATA
+        value: LUCI MD;LuciZR;https://i.imgur.com/9m1aaU6.jpeg
+      - key: SUDO
+        value: 918293838182
+      - key: DATABASE_URL
+        sync: false
